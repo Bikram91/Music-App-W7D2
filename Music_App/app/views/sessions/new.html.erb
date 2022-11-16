@@ -1,0 +1,15 @@
+<div id="flex-part">
+<h1 class="header">MUSIC APP</h1>
+<h1 class="user">Sign In!</h1>
+
+<form action="<%= session_url  %>" method="post">
+ <input type="hidden" name='authenticity_token' value='<%= form_authenticity_token %>'>
+<input type="text" name="user[email]" placeholder='username'>
+    <input type="password" name="user[password]" id="" placeholder='password'>
+    <button>Submit</button>
+
+
+
+</form> 
+
+</div>
